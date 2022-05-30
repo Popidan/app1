@@ -16,7 +16,7 @@ if(is_taken($UserName,$User_name_col, $User_table, $conn)){
     }
     else{
         header("Location: login_page.php?errorId=2");
-        //echo $HshPassword;
+        
     }
 }
 else{

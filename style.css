@@ -4,7 +4,26 @@
     text-decoration: none;
     flex: 1 1 0px;
 }
+.link_r{
+    margin-right: 5px;
+    margin-left: 5px;
+    float: right;
+}
 .link_container{
     display: flex;
     flex-direction:row;
+}
+.nb{
+    width: 100%;
+}
+.test_input{
+    width: 300px;
+}
+.LogSig{
+    
+    width: 15%;
+    float: left;
+    text-align-last: center;
+    margin-left: 42.5%;
+    margin-top: 10px;
 }
