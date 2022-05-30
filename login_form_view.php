@@ -6,6 +6,6 @@
             <input type = "password" name="password" class = "text_input">
             <input type = "submit" class="sub_but">
         </form>
-        <a href = "signup_page.php">Sign Up</a>
+        <a href = "signup_page.php?errorId=0">Sign Up</a>
     </div>
 </html>

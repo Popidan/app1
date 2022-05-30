@@ -6,6 +6,10 @@
     </head>
     <body>
         <?php include'header.php' ?>
-        <?php include'signup_form_view.php' ?>
+        <?php include'signup_form_view.php'; 
+            if($_GET['errorId'] == 1){
+                echo "<script>alert('Username or email already in use')</script>";
+            }
+        ?>
     </body>
 </html>
