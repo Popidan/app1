@@ -1,3 +1,3 @@
 <?php
-header("Location: login_page.php?errorId=0");
+header("Location: login/login_page.php?errorId=0");
 ?>

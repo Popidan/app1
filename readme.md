@@ -1,3 +1,4 @@
+# LoginModule
 Hello!
 In order to get this up and running you have to set it up.
 You have to:    1. go to db_conn.php and fill the variables with your db information
