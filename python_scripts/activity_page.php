@@ -17,6 +17,9 @@
     $admin = is_admin($row, $User_admin_col);
     
 ?>
+
+<?php echo passthru("python get_data.py")?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,17 +28,18 @@
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     </head>
     <body>
-    <?php 
-        if($admin == 0){
+
+        <?php if($admin == 0){
             include '../headers/header.php';
-            include 'nonadmin_content.php';
+            //include 'nonadmin_content.php';
         }
         else{
             include '../headers/admin_header.php';
         }
-
-    ?>
-    
-
+        ?>
+        <div class = "container-plot">
+            <h3>Plot nominal cu activitatea din uiltimele 7 zile</h3>
+            <img src = "plots/activity.png" title="Grafic activitate">
+        </div>
     </body>
 </html>
